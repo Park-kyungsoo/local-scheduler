@@ -1,0 +1,17 @@
+{
+  "name": "local-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "로컬 PC용 Claude Code / 셸 작업 스케줄러 (Windows · macOS 공용, 의존성 없음)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sync": "node scripts/sync.js",
+    "sync-pull": "node scripts/sync.js pull",
+    "sync-status": "node scripts/sync.js status",
+    "install-service": "node scripts/install-service.js install",
+    "uninstall-service": "node scripts/install-service.js uninstall",
+    "service-status": "node scripts/install-service.js status"
+  },
+  "engines": { "node": ">=18.17" }
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "01314d3ab07e",
+      "name": "테스트",
+      "type": "claude",
+      "enabled": true,
+      "schedule": "19 9 * * 1-5",
+      "cwd": "",
+      "timeoutMs": 1800000,
+      "catchUp": false,
+      "notes": "",
+      "createdAt": "2026-08-27T00:05:02.226Z",
+      "updatedAt": "2026-08-27T00:17:36.636Z",
+      "prompt": "테스트 확인",
+      "model": "",
+      "permissionMode": "bypassPermissions",
+      "allowedTools": "",
+      "extraArgs": "",
+      "command": ""
+    }
+  ]
+}

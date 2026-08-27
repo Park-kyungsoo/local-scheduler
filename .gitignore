@@ -1,0 +1,12 @@
+node_modules/
+
+# data/ 아래에서 작업 정의(jobs.json)만 두 PC 간에 공유한다.
+# 나머지는 PC 마다 다른 값이라 동기화하면 매번 충돌한다.
+data/*
+!data/jobs.json
+
+# state.json    : 다음 실행 시각 (PC 별)
+# runtime.json  : 마지막 실행 결과 (PC 별)
+# runs/         : 실행 로그 (PC 별, 계속 쌓임)
+
+*.log
