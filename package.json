@@ -6,6 +6,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "bg": "node scripts/install-service.js start",
+    "stop": "node scripts/install-service.js stop",
+    "restart": "node scripts/install-service.js restart",
     "sync": "node scripts/sync.js",
     "sync-pull": "node scripts/sync.js pull",
     "sync-status": "node scripts/sync.js status",
