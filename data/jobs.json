@@ -80,6 +80,22 @@
       "allowedTools": "",
       "extraArgs": "",
       "command": ""
+    },
+    {
+      "id": "b4e170959e63",
+      "name": "옵시디언 볼트 동기화",
+      "type": "shell",
+      "enabled": true,
+      "schedule": "0 9 * * *",
+      "cwd": "C:\\Users\\kyungsoo.park\\OneDrive - COSMAX\\문서\\Obsidian Vault",
+      "cwdMac": "",
+      "timeoutMs": 600000,
+      "catchUp": true,
+      "notes": "pull --rebase --autostash -> 변경분 커밋(최신화) -> push. 변경이 없는 날은 커밋을 건너뛴다.",
+      "createdAt": "2026-09-06T23:15:19.209Z",
+      "updatedAt": "2026-09-06T23:16:19.726Z",
+      "command": "node \"C:\\Users\\kyungsoo.park\\eclipse-workspace\\local-scheduler\\scripts\\git-daily-sync.js\"",
+      "prompt": ""
     }
   ]
 }
